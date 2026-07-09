@@ -144,7 +144,7 @@ h1, p{
 <div class="producto">
   <h2>Dron foldeable E88 Pro</h2>
   <img src="https://i.ibb.co/B5y1tjPJ/Whats-App-Image-2026-07-06-at-8-57-37-PM.jpg">
-  <h3>RD$2000(RD$1699 OFERTA TEMPORAL)</h3>
+  <h3>RD$2000</h3>
 
   <a class="btn" target="_blank" href="https://wa.me/18096368932?text=quiero%20este%20Dron%20en oferta%20(RD%241699)">
   Comprar por WhatsApp
@@ -214,7 +214,7 @@ function reproducirSonidoCompra(){
 }
 
 document.querySelectorAll(".btn").forEach(function(boton){
-  boton.addEventListener("click", function(){
+  boton.addEventListener("click", function(){    
     reproducirSonidoCompra();
     boton.classList.remove("clicked");
     void boton.offsetWidth; // reinicia la animación si se pica varias veces seguidas
